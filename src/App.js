@@ -12,8 +12,8 @@ return (
 <div>
   <Header/>
   <Routes>
-      <Route  path='/' element={<Home/>}/>
-     <Route  path='/:id' element={<NewsDetails/>}/>
+      <Route exact path='/' element={<Home/>}/>
+     <Route path='/:id' element={<NewsDetails/>}/>
      
    </Routes>
 
